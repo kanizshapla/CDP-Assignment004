@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataTables Example</title>
+
+    <!-- Include Bootstrap CSS (optional, for styling) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Include DataTables CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css"
+    />
+
+    <!-- Include jQuery and DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>DataTables Example</h2>
+      <div id="tablePromiseContainer">
+        <h3>Table using Promise</h3>
+        <table id="tablePromise" class="table table-striped">
+          <thead>
+            <!-- Table header will be dynamically added -->
+          </thead>
+          <tbody>
+            <!-- Table body will be dynamically added -->
+          </tbody>
+        </table>
+      </div>
+
+      <div id="tableAsyncAwaitContainer">
+        <h3>Table using Async/Await</h3>
+        <table id="tableAsyncAwait" class="table table-striped">
+          <thead>
+            <!-- Table header will be dynamically added -->
+          </thead>
+          <tbody>
+            <!-- Table body will be dynamically added -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
